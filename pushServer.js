@@ -7,7 +7,7 @@ const pushServerKeys = require('./pushServerKeys.json');
 
 const pushClientSubscription = require('./pushClientSubscription.json');
 
-webPush.setVapidDetails('mailto:contact@codeconcept.fr', pushServerKeys.publicKey, pushServerKeys.privateKey);
+webPush.setVapidDetails('mailto:contact@web-site.fr', pushServerKeys.publicKey, pushServerKeys.privateKey);
 
 const subscription = {
     endpoint: pushClientSubscription.endpoint,
