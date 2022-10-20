@@ -17,7 +17,7 @@
     "express": "^4.16.2",
     "live-server": "^1.2.0",
     "mongodb": "^3.0.1",
-    "mongoose": "^4.13.9",
+    "mongoose": "^4.13.21",
     "push-server": "^0.5.0",
     "web-push": "^3.2.4"
   }
